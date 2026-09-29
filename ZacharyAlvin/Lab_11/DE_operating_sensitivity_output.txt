@@ -1,0 +1,156 @@
+DEERE ONE-AT-A-TIME OPERATING SENSITIVITY
+Inputs: annual percentages. Outputs: USD millions and USD/share as labelled.
+Every run starts from a fresh independent copy of de_sensitivity_base_inputs.py.
+
+RUN: PPA sales growth — Lower
+Input path (annual percentage): 2026 -12.0%, 2027 10.0%, 2028 7.0%, 2029 4.0%, 2030 2.0%
+Run status: VALID
+Accounting checks:
+  2026: balance gap +0.0 USD million; cash 10,780.7 >= 5,000.0 USD million = True
+  2027: balance gap +0.0 USD million; cash 12,083.6 >= 5,000.0 USD million = True
+  2028: balance gap +0.0 USD million; cash 14,055.2 >= 5,000.0 USD million = True
+  2029: balance gap +0.0 USD million; cash 16,535.9 >= 5,000.0 USD million = True
+  2030: balance gap +0.0 USD million; cash 19,360.0 >= 5,000.0 USD million = True
+FY2030 operating profit: 7,784.2 USD million (change from base -350.5 USD million)
+FY2030 equipment operations FCFF: 5,857.9 USD million (change from base -224.6 USD million)
+Value per share: $316.66 (change from base -9.79 USD/share)
+Trace detail (USD millions except percentages and balance check):
+Year    PPA growth     PPA sales   PPA margin   PPA op profit   Total op profit        D&A      Capex   Change NWC  Equipment FCFF    Balance
+2026       -12.0%      15,233.7       11.5%         1,751.9           5,194.3    1,260.1    1,382.1        181.9         3,669.8        0.0
+2027        10.0%      16,757.0       14.0%         2,346.0           6,061.0    1,350.4    1,437.5        305.7         4,243.8        0.0
+2028         7.0%      17,930.0       16.0%         2,868.8           6,836.1    1,423.9    1,469.8        248.8         4,934.9        0.0
+2029         4.0%      18,647.2       17.2%         3,207.3           7,401.1    1,480.8    1,480.8        192.9         5,468.9        0.0
+2030         2.0%      19,020.2       18.0%         3,423.6           7,784.2    1,524.0    1,474.8        146.2         5,857.9        0.0
+
+RUN: PPA sales growth — Base
+Input path (annual percentage): 2026 -10.0%, 2027 12.0%, 2028 9.0%, 2029 6.0%, 2030 4.0%
+Run status: VALID
+Accounting checks:
+  2026: balance gap +0.0 USD million; cash 10,692.9 >= 5,000.0 USD million = True
+  2027: balance gap -0.0 USD million; cash 11,951.5 >= 5,000.0 USD million = True
+  2028: balance gap +0.0 USD million; cash 13,920.8 >= 5,000.0 USD million = True
+  2029: balance gap +0.0 USD million; cash 16,457.3 >= 5,000.0 USD million = True
+  2030: balance gap +0.0 USD million; cash 19,404.8 >= 5,000.0 USD million = True
+FY2030 operating profit: 8,134.7 USD million (change from base +0.0 USD million)
+FY2030 equipment operations FCFF: 6,082.4 USD million (change from base +0.0 USD million)
+Value per share: $326.45 (change from base +0.00 USD/share)
+Trace detail (USD millions except percentages and balance check):
+Year    PPA growth     PPA sales   PPA margin   PPA op profit   Total op profit        D&A      Capex   Change NWC  Equipment FCFF    Balance
+2026       -10.0%      15,579.9       11.5%         1,791.7           5,234.1    1,270.9    1,393.9        218.3         3,662.8        0.0
+2027        12.0%      17,449.5       14.0%         2,442.9           6,158.0    1,371.9    1,460.4        342.1         4,280.3       -0.0
+2028         9.0%      19,019.9       16.0%         3,043.2           7,010.5    1,457.7    1,504.7        290.6         5,025.4        0.0
+2029         6.0%      20,161.1       17.2%         3,467.7           7,661.5    1,527.8    1,527.8        237.4         5,623.6        0.0
+2030         4.0%      20,967.6       18.0%         3,774.2           8,134.7    1,584.3    1,533.2        191.7         6,082.4        0.0
+
+RUN: PPA sales growth — Higher
+Input path (annual percentage): 2026 -8.0%, 2027 14.0%, 2028 11.0%, 2029 8.0%, 2030 6.0%
+Run status: VALID
+Accounting checks:
+  2026: balance gap +0.0 USD million; cash 10,605.2 >= 5,000.0 USD million = True
+  2027: balance gap +0.0 USD million; cash 11,816.1 >= 5,000.0 USD million = True
+  2028: balance gap +0.0 USD million; cash 13,778.6 >= 5,000.0 USD million = True
+  2029: balance gap +0.0 USD million; cash 16,366.7 >= 5,000.0 USD million = True
+  2030: balance gap +0.0 USD million; cash 19,436.9 >= 5,000.0 USD million = True
+FY2030 operating profit: 8,513.3 USD million (change from base +378.6 USD million)
+FY2030 equipment operations FCFF: 6,321.8 USD million (change from base +239.3 USD million)
+Value per share: $336.86 (change from base +10.41 USD/share)
+Trace detail (USD millions except percentages and balance check):
+Year    PPA growth     PPA sales   PPA margin   PPA op profit   Total op profit        D&A      Capex   Change NWC  Equipment FCFF    Balance
+2026        -8.0%      15,926.1       11.5%         1,831.5           5,273.9    1,281.6    1,405.6        254.6         3,655.9        0.0
+2027        14.0%      18,155.8       14.0%         2,541.8           6,256.9    1,393.8    1,483.7        379.9         4,316.7        0.0
+2028        11.0%      20,152.9       16.0%         3,224.5           7,191.8    1,492.8    1,540.9        335.4         5,118.2        0.0
+2029         8.0%      21,765.1       17.2%         3,743.6           7,937.4    1,577.5    1,577.5        286.9         5,785.2        0.0
+2030         6.0%      23,071.1       18.0%         4,152.8           8,513.3    1,649.6    1,596.3        244.1         6,321.8        0.0
+
+OUTPUT SPANS — PPA sales growth
+FY2030 operating profit: 729.2 USD million
+FY2030 equipment operations FCFF: 463.9 USD million
+Value per share: $20.20
+
+RUN: PPA operating margin — Lower
+Input path (annual percentage): 2026 9.5%, 2027 12.0%, 2028 14.0%, 2029 15.2%, 2030 16.0%
+Run status: VALID
+Accounting checks:
+  2026: balance gap +0.0 USD million; cash 10,454.5 >= 5,000.0 USD million = True
+  2027: balance gap +0.0 USD million; cash 11,446.1 >= 5,000.0 USD million = True
+  2028: balance gap +0.0 USD million; cash 13,124.5 >= 5,000.0 USD million = True
+  2029: balance gap +0.0 USD million; cash 15,352.5 >= 5,000.0 USD million = True
+  2030: balance gap +0.0 USD million; cash 17,979.2 >= 5,000.0 USD million = True
+FY2030 operating profit: 7,715.3 USD million (change from base -419.4 USD million)
+FY2030 equipment operations FCFF: 5,761.6 USD million (change from base -320.8 USD million)
+Value per share: $310.26 (change from base -16.19 USD/share)
+Trace detail (USD millions except percentages and balance check):
+Year    PPA growth     PPA sales   PPA margin   PPA op profit   Total op profit        D&A      Capex   Change NWC  Equipment FCFF    Balance
+2026       -10.0%      15,579.9        9.5%         1,480.1           4,922.5    1,270.9    1,393.9        218.3         3,424.5        0.0
+2027        12.0%      17,449.5       12.0%         2,093.9           5,809.0    1,371.9    1,460.4        342.1         4,013.3        0.0
+2028         9.0%      19,019.9       14.0%         2,662.8           6,630.1    1,457.7    1,504.7        290.6         4,734.4        0.0
+2029         6.0%      20,161.1       15.2%         3,064.5           7,258.2    1,527.8    1,527.8        237.4         5,315.1        0.0
+2030         4.0%      20,967.6       16.0%         3,354.8           7,715.3    1,584.3    1,533.2        191.7         5,761.6        0.0
+
+RUN: PPA operating margin — Base
+Input path (annual percentage): 2026 11.5%, 2027 14.0%, 2028 16.0%, 2029 17.2%, 2030 18.0%
+Run status: VALID
+Accounting checks:
+  2026: balance gap +0.0 USD million; cash 10,692.9 >= 5,000.0 USD million = True
+  2027: balance gap -0.0 USD million; cash 11,951.5 >= 5,000.0 USD million = True
+  2028: balance gap +0.0 USD million; cash 13,920.8 >= 5,000.0 USD million = True
+  2029: balance gap +0.0 USD million; cash 16,457.3 >= 5,000.0 USD million = True
+  2030: balance gap +0.0 USD million; cash 19,404.8 >= 5,000.0 USD million = True
+FY2030 operating profit: 8,134.7 USD million (change from base +0.0 USD million)
+FY2030 equipment operations FCFF: 6,082.4 USD million (change from base +0.0 USD million)
+Value per share: $326.45 (change from base +0.00 USD/share)
+Trace detail (USD millions except percentages and balance check):
+Year    PPA growth     PPA sales   PPA margin   PPA op profit   Total op profit        D&A      Capex   Change NWC  Equipment FCFF    Balance
+2026       -10.0%      15,579.9       11.5%         1,791.7           5,234.1    1,270.9    1,393.9        218.3         3,662.8        0.0
+2027        12.0%      17,449.5       14.0%         2,442.9           6,158.0    1,371.9    1,460.4        342.1         4,280.3       -0.0
+2028         9.0%      19,019.9       16.0%         3,043.2           7,010.5    1,457.7    1,504.7        290.6         5,025.4        0.0
+2029         6.0%      20,161.1       17.2%         3,467.7           7,661.5    1,527.8    1,527.8        237.4         5,623.6        0.0
+2030         4.0%      20,967.6       18.0%         3,774.2           8,134.7    1,584.3    1,533.2        191.7         6,082.4        0.0
+
+RUN: PPA operating margin — Higher
+Input path (annual percentage): 2026 13.5%, 2027 16.0%, 2028 18.0%, 2029 19.2%, 2030 20.0%
+Run status: VALID
+Accounting checks:
+  2026: balance gap +0.0 USD million; cash 10,931.3 >= 5,000.0 USD million = True
+  2027: balance gap +0.0 USD million; cash 12,456.8 >= 5,000.0 USD million = True
+  2028: balance gap +0.0 USD million; cash 14,717.2 >= 5,000.0 USD million = True
+  2029: balance gap +0.0 USD million; cash 17,562.1 >= 5,000.0 USD million = True
+  2030: balance gap +0.0 USD million; cash 20,830.4 >= 5,000.0 USD million = True
+FY2030 operating profit: 8,554.0 USD million (change from base +419.4 USD million)
+FY2030 equipment operations FCFF: 6,403.3 USD million (change from base +320.8 USD million)
+Value per share: $342.64 (change from base +16.19 USD/share)
+Trace detail (USD millions except percentages and balance check):
+Year    PPA growth     PPA sales   PPA margin   PPA op profit   Total op profit        D&A      Capex   Change NWC  Equipment FCFF    Balance
+2026       -10.0%      15,579.9       13.5%         2,103.3           5,545.7    1,270.9    1,393.9        218.3         3,901.2        0.0
+2027        12.0%      17,449.5       16.0%         2,791.9           6,507.0    1,371.9    1,460.4        342.1         4,547.2        0.0
+2028         9.0%      19,019.9       18.0%         3,423.6           7,390.9    1,457.7    1,504.7        290.6         5,316.5        0.0
+2029         6.0%      20,161.1       19.2%         3,870.9           8,064.7    1,527.8    1,527.8        237.4         5,932.1        0.0
+2030         4.0%      20,967.6       20.0%         4,193.5           8,554.0    1,584.3    1,533.2        191.7         6,403.3        0.0
+
+OUTPUT SPANS — PPA operating margin
+FY2030 operating profit: 838.7 USD million
+FY2030 equipment operations FCFF: 641.6 USD million
+Value per share: $32.37
+
+FINAL RESTORED-BASE RERUN
+
+RUN: PPA sales growth — Base
+Input path (annual percentage): 2026 -10.0%, 2027 12.0%, 2028 9.0%, 2029 6.0%, 2030 4.0%
+Run status: VALID
+Accounting checks:
+  2026: balance gap +0.0 USD million; cash 10,692.9 >= 5,000.0 USD million = True
+  2027: balance gap -0.0 USD million; cash 11,951.5 >= 5,000.0 USD million = True
+  2028: balance gap +0.0 USD million; cash 13,920.8 >= 5,000.0 USD million = True
+  2029: balance gap +0.0 USD million; cash 16,457.3 >= 5,000.0 USD million = True
+  2030: balance gap +0.0 USD million; cash 19,404.8 >= 5,000.0 USD million = True
+FY2030 operating profit: 8,134.7 USD million (change from base +0.0 USD million)
+FY2030 equipment operations FCFF: 6,082.4 USD million (change from base +0.0 USD million)
+Value per share: $326.45 (change from base +0.00 USD/share)
+Trace detail (USD millions except percentages and balance check):
+Year    PPA growth     PPA sales   PPA margin   PPA op profit   Total op profit        D&A      Capex   Change NWC  Equipment FCFF    Balance
+2026       -10.0%      15,579.9       11.5%         1,791.7           5,234.1    1,270.9    1,393.9        218.3         3,662.8        0.0
+2027        12.0%      17,449.5       14.0%         2,442.9           6,158.0    1,371.9    1,460.4        342.1         4,280.3       -0.0
+2028         9.0%      19,019.9       16.0%         3,043.2           7,010.5    1,457.7    1,504.7        290.6         5,025.4        0.0
+2029         6.0%      20,161.1       17.2%         3,467.7           7,661.5    1,527.8    1,527.8        237.4         5,623.6        0.0
+2030         4.0%      20,967.6       18.0%         3,774.2           8,134.7    1,584.3    1,533.2        191.7         6,082.4        0.0
+Final base matches initial base outputs: True
